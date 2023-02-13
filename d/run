@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker run --rm -it -v ${PWD}:/rails -v ruby-bundle-cache:/bundle -p 3000:3000 ghcr.io/rails/cli "$@"
+sudo chown -R $(whoami):$(whoami) .

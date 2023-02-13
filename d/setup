@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker volume create ruby-bundle-cache
+d/run bin/setup "$@"
