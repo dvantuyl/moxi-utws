@@ -14,10 +14,20 @@ A bathroom sink Docker-Containerized Rails setup.
 **Docker Implementation:** [rails/docked](https://github.com/rails/docked)
 
 ## Setup
+
+**Prerequisites:** Just [Docker](https://www.docker.com/)! *(ruby & rails not needed)*
+
+**Setup a new rails app:**
 ```
+git clone git@github.com:dvantuyl/moxi-utws.git new_app_dir
+cd new_app_dir
 d/setup
 ```
-*(yes, that simple)*
+**then**
+```
+d/rails s
+```
+
 
 ## Commands
 
