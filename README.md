@@ -1,9 +1,6 @@
 # Moxi UTWS
 A bathroom sink Docker-Containerized Rails setup.
 
-**Rails Setup Command**
-`rails new moxi-utws -T`
-
 **Stack**
 - Ruby 3.2.1
 - Rails 7.0.4
